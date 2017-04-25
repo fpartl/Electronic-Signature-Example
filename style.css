@@ -1,0 +1,32 @@
+body { font-family:"Dosis"; font-size:12pt; background-color: aliceblue; overflow-y:scroll;}
+h4 {font-weight: bold;}
+
+.sectionContent { margin-top:1.5em; }
+.secDesc { margin-bottom:2em; }
+.row { margin-top:1em; margin-bottom:1em; }
+.activeMenu { background-color: cornflowerblue !important; font-weight: bold;}
+.alert { margin-top:0.8em; }
+
+/* generator */
+.pLenInput { width:30em; }
+
+/* overview */
+.hausnumero { margin-bottom:2em; word-wrap: break-word; }
+.lastnumero { margin-bottom:0em; }
+
+/* bob */
+.message { resize:vertical; max-height: 40ex; min-height: 10ex;}
+.successTitle { margin-top:0.5em; margin-bottom:0.5em; font-size: 20pt; font-weight: bold; }
+.innerPanel { margin-bottom:0px; }
+
+/* oscar */
+.subButton { margin-left:0.5em; }
+.silence { font-size:30pt; font-weight:bold; margin-top:5ex; }
+.submitArea { margin-top: 1.5ex; }
+
+/* alice */
+.subPanel { width:65%; float:none; margin-left:auto; margin-right:auto; }
+.resultMark { font-size:6ex; }
+.resultText { font-size:30pt; font-weight:bold; margin-top:1.5ex; }
+.finishButton { font-size:20pt; margin-top:1.5ex; }
+.hash { word-wrap: break-word; }
