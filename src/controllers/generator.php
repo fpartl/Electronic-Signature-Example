@@ -31,7 +31,7 @@
                     </div>
                     <div class="col-sm-1"></div>
                     <div class="col-sm-8">
-                        Nějaký chytrý věty...
+                        Při velikostech nad 4096 bitů není zaručeno, že nebudete čekat na výsledek půl hodiny.
                     </div>
                 </div>
                 <div class="row">
@@ -41,7 +41,7 @@
                     </div>
                     <div class="col-sm-1"></div>
                     <div class="col-sm-8">
-                        Nějaký chytrý věty...
+                        Veřejný exponent nesmí být delší než hodnota Eulerovy funkce x = (p - 1)(q - 1), tj. přibližně dvojnásobek čísel p a q. Volte prosím toto číslo malé. Obecně je toto číslo dlouhé 16 až 64 bitů.
                     </div>
                 </div>
                 <button type="submit" class="btn btn-primary pull-right">Generovat klíče</button>
