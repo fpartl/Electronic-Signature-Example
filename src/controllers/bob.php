@@ -2,12 +2,12 @@
     global $rsa, $event, $sha, $message;
 
     if (!$rsa || !$event || !$rsa->isReady() || !$sha) {
-        require_once '../system/config.php';
+        require_once '../src/config.php';
         header('Location:' . SELF_HTTP_ADDR);
         die();
     }
 
-    require_once 'sign/rsa_cryptor.php';
+    require_once '../src/sign/rsa_cryptor.php';
 
     $input = trim(@$_POST['message']);
 

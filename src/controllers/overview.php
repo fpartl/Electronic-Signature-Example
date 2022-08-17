@@ -2,7 +2,7 @@
     global $rsa;
 
     if (!$rsa) {
-        require_once '../system/config.php';
+        require_once '../src/config.php';
         header('Location:' . SELF_HTTP_ADDR);
         die();
     }

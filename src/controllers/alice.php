@@ -2,12 +2,12 @@
     global $message, $sha, $event;
 
     if (!$message || !$sha || !$event) {
-        require_once '../system/config.php';
+        require_once '../src/config.php';
         header('Location:' . SELF_HTTP_ADDR);
         die();
     }
 
-    require_once 'sign/rsa_decryptor.php';
+    require_once '../src/sign/rsa_decryptor.php';
 
     if ($message->getState() != PASSED) echo '<div class="text-center silence">Alice zatím nepřijala žádnou zprávu.</div>';
     else {
