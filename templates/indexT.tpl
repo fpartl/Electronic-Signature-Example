@@ -9,7 +9,7 @@
         <title>Implemenatace elektronického podpisu</title>
         <link href="bootstrap/docs/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
-        <link href='http://fonts.googleapis.com/css?family=Dosis&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Dosis&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     </head>
     <body>
         <div class="container">
